@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arabic Class </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Chapter 7  Quiz</h1>
+        <div id="question-container">
+            <p id="question-text"></p>
+            <ul id="choices-list">
+                <li><button class="choice-btn" onclick="checkAnswer(0)"></button></li>
+                <li><button class="choice-btn" onclick="checkAnswer(1)"></button></li>
+                <li><button class="choice-btn" onclick="checkAnswer(2)"></button></li>
+            </ul>
+        </div>
+        <p id="result-text"></p>
+        <button id="next-btn" onclick="nextQuestion()">Next Question</button>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
